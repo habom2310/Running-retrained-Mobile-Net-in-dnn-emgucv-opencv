@@ -1,6 +1,6 @@
 # Running retrained Mobile Net in dnn EmguCV/OpenCV
 
-OpenCV provide a package called dnn that allows us to implement deep neural network in our application. In this tutorial, I will walk you step by step to implement a retrained Mobile Net to your C# application with EmguCV (.Net wrapper for OpenCV).
+OpenCV provides a package called dnn that allows us to implement deep neural network in our application. In this tutorial, I will walk you step by step to implement a retrained Mobile Net to your C# application with EmguCV (.Net wrapper for OpenCV).
 
 # Appetizer (pre-requisite)
 
@@ -126,6 +126,7 @@ OpenCV provide a package called dnn that allows us to implement deep neural netw
     
 # Dessert (result)
 
-Below image is the implementation in C# of Mobile net in dnn EmguCV for number plate recognition. The inputs for the model are images of characters that I cropped from the original image. More information about plate detection and segmentation is available [here](https://github.com/habom2310/ANPR-system).
+Below image is the implementation in C# of Mobile net in dnn EmguCV for number plate recognition. The inputs for the model are images of characters that I cropped from the original image. More information about plate detection and segmentation is available [here](https://github.com/habom2310/ANPR-system). As you can see, the total time for number plate recognition (including plate detection, character segmentation and character recognition) is around 200 ms without GPU. It's promising to run it in a real-time application.
 
 ![Alt text](https://github.com/habom2310/Running-retrained-Mobile-Net-in-dnn-emgucv-opencv/blob/master/Result.jpg)
+
