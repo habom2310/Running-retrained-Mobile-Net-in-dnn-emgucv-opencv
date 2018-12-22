@@ -126,3 +126,6 @@ OpenCV provide a package called dnn that allows us to implement deep neural netw
     
 # Dessert (result)
 
+Below image is the implementation in C# of Mobile net in dnn EmguCV for number plate recognition. The inputs for the model are images of characters that I cropped from the original image. More information about plate detection and segmentation is available [here](https://github.com/habom2310/ANPR-system).
+
+![Alt text](https://github.com/habom2310/Running-retrained-Mobile-Net-in-dnn-emgucv-opencv/blob/master/result.jpg)
