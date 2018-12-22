@@ -70,7 +70,7 @@ OpenCV provides a package called dnn that allows us to implement deep neural net
  
     Read the model
       ```
-      mobile_net = DnnInvoke.ReadNetFromTensorflow("mobilenet_for_dnn.pb");
+      Net mobile_net = DnnInvoke.ReadNetFromTensorflow("mobilenet_for_dnn.pb");
       ```
   
     Read the labels
