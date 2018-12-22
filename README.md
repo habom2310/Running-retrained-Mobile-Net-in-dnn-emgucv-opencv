@@ -2,6 +2,9 @@
 
 OpenCV provides a package called dnn that allows us to implement deep neural network in our application. In this tutorial, I will walk you step by step to implement a retrained Mobile Net to your C# application with EmguCV (.Net wrapper for OpenCV).
 
+
+![Alt text](https://github.com/habom2310/Running-retrained-Mobile-Net-in-dnn-emgucv-opencv/blob/master/result2.JPG)
+
 # Appetizer (pre-requisite)
 
  1. Retrained Mobile Net model
